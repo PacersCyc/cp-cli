@@ -1,0 +1,35 @@
+{
+  "name": "cp-cli",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:PacersCyc/cp-cli.git",
+  "author": "PacersCyc <452720855@qq.com>",
+  "license": "MIT",
+  "files": [
+    "cli.js",
+    "dist/**/*.js"
+  ],
+  "bin": {
+    "cp-cli": "cli.js"
+  },
+  "scripts": {
+    "compile": "babel src -d dist --extensions '.ts'",
+    "watch": "npm run compile -- --watch"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "cross-spawn": "^7.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.9.2"
+  }
+}
