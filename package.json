@@ -1,5 +1,5 @@
 {
-  "name": "cp-cli",
+  "name": "cyc-cli",
   "version": "1.0.0",
   "main": "dist/index.js",
   "repository": "git@github.com:PacersCyc/cp-cli.git",
